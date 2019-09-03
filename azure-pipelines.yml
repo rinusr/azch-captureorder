@@ -48,7 +48,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
 
-    environment: 'aksdemocluster.dev' # name of the environment to target [env name.namespace]. This will pull in the Kubernetes service connection automatically
+    environment: 'default.dev' # name of the environment to target [env name.namespace]. This will pull in the Kubernetes service connection automatically
 
     strategy:
       runOnce:
